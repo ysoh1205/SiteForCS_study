@@ -4,7 +4,7 @@ function openProgramCard() {
   if (text === "+") {
     let ul = document.createElement("ul");
     ul.id = "list of pg";
-    ul.innerHTML = `<li><a href="#">Visual Studio Code</a></li><li><a href="#">Colaboratory</a></li><li><a href="#">Eclipse</a></li>`;
+    ul.innerHTML = `<li><a href="#">Visual Studio Code</a></li><li><a href="colab.html">Colaboratory</a></li><li><a href="#">Eclipse</a></li>`;
     programCardButton.parentNode.insertBefore(ul, programCardButton);
     programCardButton.innerText = "-";
   } else {
