@@ -20,7 +20,7 @@ function openOpensourceCard() {
     if (text === "+") {
         let ul = document.createElement("ul");
         ul.id = "list of OS";
-        ul.innerHTML = `<li><a href="#">GitHub</a></li><li><a href="#">GitLab</a></li><li><a href="#">Bitbucket</a></li>`;
+        ul.innerHTML = `<li><a href="github.html">GitHub</a></li><li><a href="#">GitLab</a></li><li><a href="#">Bitbucket</a></li>`;
         opensourceCardButton.parentNode.insertBefore(ul, opensourceCardButton);
         opensourceCardButton.innerText = "-";
     } else {
