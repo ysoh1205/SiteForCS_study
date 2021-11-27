@@ -4,7 +4,8 @@ function openProgramCard() {
   if (text === "+") {
     let ul = document.createElement("ul");
     ul.id = "list of pg";
-    ul.innerHTML = `<li><a href="#">Visual Studio Code</a></li><li><a href="colab.html">Colaboratory</a></li><li><a href="#">Eclipse</a></li>`;
+    ul.innerHTML = `<li><a href="VSC.html">Visual Studio Code</a></li><li><a href="colab.html">Colaboratory</a></li><li><a href="eclipse.html">Eclipse</a></li>`;
+
     programCardButton.parentNode.insertBefore(ul, programCardButton);
     programCardButton.innerText = "-";
   } else {
@@ -36,7 +37,7 @@ function openUtilityCard() {
   if (text === "+") {
     let ul = document.createElement("ul");
     ul.id = "list of UT";
-    ul.innerHTML = `<li><a href="#">Notion</a></li><li><a href="#">XMind</a></li><li><a href="#">Dropbox</a></li>`;
+    ul.innerHTML = `<li><a href="#">Notion</a></li><li><a href="xmind.html">XMind</a></li><li><a href="#">Dropbox</a></li>`;
     utilityCardButton.parentNode.insertBefore(ul, utilityCardButton);
     utilityCardButton.innerText = "-";
   } else {
