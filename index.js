@@ -5,6 +5,7 @@ function openProgramCard() {
     let ul = document.createElement("ul");
     ul.id = "list of pg";
     ul.innerHTML = `<li><a href="VSC.html">Visual Studio Code</a></li><li><a href="colab.html">Colaboratory</a></li><li><a href="eclipse.html">Eclipse</a></li>`;
+
     programCardButton.parentNode.insertBefore(ul, programCardButton);
     programCardButton.innerText = "-";
   } else {
