@@ -1,8 +1,8 @@
 ## SiteForCS_study    
 ## Teammates:  
-* ±è¹Î¼® kmixs99@g.skku.edu 2020313687
-* ¿ÀÀ±¼® ysoh1205@gmail.com 2020312416
-* ÇÑÅÂ¿í asky990223@gmail.com 2017314849
+* ê¹€ë¯¼ì„ kmixs99@g.skku.edu 2020313687
+* ì˜¤ìœ¤ì„ ysoh1205@gmail.com 2020312416
+* í•œíƒœìš± asky990223@gmail.com 2017314849
 
 ## Description: 
 This project is to give useful information for CS students. You can get information about effeciency of how to program well, how to collaborate with opensource, and how to communicate with workspaces.  
